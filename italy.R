@@ -1,9 +1,7 @@
 library(tidyverse)
 
-# Чтение данных
 data <- read.csv("italy.csv", header = TRUE)
 
-# Переименование столбцов
 colnames(data) <- c("Year", "City", "Category", "Gold", "Silver", "Bronze", "Total", 
                     "Place4", "Place5", "Place6", "Place7", "Place8")
 
