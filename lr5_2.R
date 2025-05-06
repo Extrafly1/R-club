@@ -116,9 +116,3 @@ lines(density(data[[var3]][data$kmeans == 3]), col = "green", lwd = 2)
 legend("topright", legend = levels(data$kmeans), col = c("red", "blue", "green"), lty = 1)
 
 par(opar)
-
-# ---------------------------
-# 8. Вывод
-# ---------------------------
-
-# Выводы по точности и графикам можно оформить в отчёте вручную, основываясь на result и визуализациях
